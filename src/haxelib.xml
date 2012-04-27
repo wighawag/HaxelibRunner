@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<project name="haxelib-runner" url="" license="GPL">
+<project name="haxelib-runner" url="https://github.com/wighawag/HaxelibRunner" license="GPL">
     <user name="wighawag"/>
     <tag v="haxelib"/>
     <tag v="install"/>
 	<tag v="setup"/>
-    <description>allow to run haxelib commands (install and set) (used by Yoga in case haxelib change)</description>
+    <description>Allow to run haxelib commands (install and set) (used by Yoga in case haxelib change)</description>
     <version name="1.0">Initial release</version>
 </project>
