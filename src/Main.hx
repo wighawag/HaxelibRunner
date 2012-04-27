@@ -1,4 +1,5 @@
 package ;
+import sys.FileSystem;
 import sys.io.Process;
 
 class Main 
@@ -74,6 +75,19 @@ class Main
 					{
 						Sys.println("already installed " + libraryName + " "  + version);
 						Sys.exit(1);
+					}
+					else if (output.indexOf("No such Project : " + libraryName) != -1)
+					{
+						#if debug
+							Sys.println("Debug mode : assume you install library through haxelib test and zip package");
+							Sys.exit(1); // already installed
+						#else
+							Sys.exit(2);
+						#end
+					}
+					else if (output.indexOf("No such version " + version) != -1)
+					{
+						Sys.exit(2);
 					}
 				}
 				
