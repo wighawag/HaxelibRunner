@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <project name="haxelib-runner" url="https://github.com/wighawag/HaxelibRunner" license="GPL">
     <user name="wighawag"/>
     <tag v="haxelib"/>
