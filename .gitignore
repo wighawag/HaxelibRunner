@@ -1,2 +1,11 @@
 package.zip
 package/
+*.hxproj
+*.sln
+*.userprefs
+*.hxml
+target/
+.idea/
+out/
+*.iml
+package.sh

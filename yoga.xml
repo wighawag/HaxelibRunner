@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project>
+	<yoga-version>1</yoga-version>
+	
+	<id>com.wighawag.haxelib.haxelib-runner</id>
+	<version>0.0.1</version>
+
+	<main>Main</main>
+	
+	
+	<sources>
+		<source path="src" />
+	</sources>
+
+	<targets hxml="compile">
+		<target name="neko" />
+	</targets>
+
+	<config-file template="package.sh.template" output="package.sh" />
+
+	<dependencies>
+	</dependencies>
+</project>
