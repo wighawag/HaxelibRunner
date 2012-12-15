@@ -4,7 +4,8 @@
 	<compiler-version>2.10</compiler-version>	
 
 	<id>com.wighawag.haxelib.haxelib-runner</id>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1.0</version>
+	<prepared>2012-12-15 13:43:58</prepared>
 
 	<main>Main</main>
 	
